@@ -7,23 +7,24 @@ body {
 }
 
 header {
-    background-color: #ffeb3b;
+    background-color: #ffeb3b; /* Sarı */
     color: #000;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: #333;
+    background-color: #002147; /* Lacivert */
     color: #fff;
     padding: 1em;
     text-align: center;
 }
 
 nav a {
-    color: #ffeb3b;
+    color: #ffeb3b; /* Sarı */
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -33,11 +34,39 @@ main {
 }
 
 h1, h2 {
-    color: #333;
+    color: #002147; /* Lacivert */
 }
 
 section {
     margin-bottom: 2em;
+}
+
+section#hakkinda {
+    background-color: #ffc0cb; /* Pembe */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+section#turler {
+    background-color: #ffeb3b; /* Sarı */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+section#faydalari {
+    background-color: #ffc0cb; /* Pembe */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #002147; /* Lacivert */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 section img {
@@ -47,12 +76,3 @@ section img {
     margin: 1em 0;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
